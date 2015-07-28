@@ -1,0 +1,20 @@
+
+package concurrencia;
+// heredando la clase hilo
+
+public class PrimerThreat extends Thread {
+    public void run()
+    {
+        while(true){
+        try 
+        {
+           
+            Thread.sleep(1000);
+        System.out.println("Yo soy el  primer Tread 7v7");
+}
+        //nunca se lanza
+        catch(InterruptedException e){}
+    
+    }
+        }
+            }
